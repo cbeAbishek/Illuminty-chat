@@ -11,6 +11,7 @@
         android:id="@+id/imageView"
         android:layout_width="255dp"
         android:layout_height="193dp"
+        android:contentDescription="@string/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="81dp"
@@ -21,7 +22,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter you User name / Email"
+        android:text="@string/enter_you_user_name_email"
         app:layout_constraintBottom_toTopOf="@+id/editTextText"
         app:layout_constraintStart_toStartOf="@+id/editTextText" />
 
@@ -30,40 +31,50 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="monospace"
-        android:text="Login illuminaties Chats"
+        android:text="@string/login_illuminaties_chats"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        tools:layout_editor_absoluteY="260dp" />
+        tools:layout_editor_absoluteY="260dp"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextNumberPassword"
         android:layout_width="268dp"
-        android:layout_height="39dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:background="@drawable/edt_background"
         android:ems="10"
+        android:hint="@string/pin_hint"
         android:inputType="numberPassword"
         app:layout_constraintEnd_toEndOf="@+id/editTextText"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextText"
-        tools:layout_editor_absoluteY="430dp" />
+        tools:ignore="LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteY="452dp" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter you pin"
+        android:text="@string/enter_you_pin"
         app:layout_constraintBottom_toTopOf="@+id/editTextNumberPassword"
         app:layout_constraintStart_toStartOf="@+id/editTextNumberPassword" />
 
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="266dp"
-        android:layout_height="42dp"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:background="@drawable/edt_background"
         android:ems="10"
+        android:hint="@string/user_name_email"
         android:inputType="text"
-        android:text="User Name / Mail"
+        android:textColorHint="#DD2C00"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        tools:layout_editor_absoluteY="358dp" />
+        tools:ignore="LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteY="377dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

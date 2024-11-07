@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Illuminty</string>
+    <string name="login_illuminaties_chats">Login illuminaties Chats</string>
+    <string name="enter_you_user_name_email">Enter you User name / Email</string>
+    <string name="enter_you_pin">Enter you pin</string>
+    <string name="user_name_mail">User Name / Mail</string>
+    <string name="logo">LOGO</string>
+    <string name="user_name_email" translatable="false">"   User Name / Email"</string>
+    <string name="pin_hint">"   ****"</string>
 </resources>
