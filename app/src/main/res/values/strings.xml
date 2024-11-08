@@ -7,4 +7,10 @@
     <string name="logo">LOGO</string>
     <string name="user_name_email" translatable="false">"   User Name / Email"</string>
     <string name="pin_hint">"   ****"</string>
+    <string name="illuminaties_chats">illuminaties Chats</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="entry_page_image">Entry page image</string>
+    <string name="top_logo">top logo</string>
+    <string name="name_email">"  Name/email"</string>
 </resources>

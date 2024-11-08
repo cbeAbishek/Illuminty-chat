@@ -47,10 +47,11 @@
         android:ems="10"
         android:hint="@string/pin_hint"
         android:inputType="numberPassword"
+        android:textColorHint="#DD2C00"
         app:layout_constraintEnd_toEndOf="@+id/editTextText"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextText"
-        tools:ignore="LabelFor,MissingConstraints"
+        tools:ignore="LabelFor,MissingConstraints,TextContrastCheck"
         tools:layout_editor_absoluteY="452dp" />
 
     <TextView
