@@ -30,13 +30,16 @@
         android:id="@+id/editTextText"
         android:layout_width="266dp"
         android:layout_height="42dp"
+        android:autofillHints=""
+        android:hint="@string/name_email"
         android:ems="10"
         android:inputType="text"
-        android:text="User Name / Mail"
+        android:background="@drawable/edt_background"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
-        tools:layout_editor_absoluteY="409dp" />
+        tools:layout_editor_absoluteY="409dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
