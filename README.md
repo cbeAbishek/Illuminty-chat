@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, We are PPG intuition of technology CSE Students</h1>
 <h3 align="center">Our NM Team ID is "NM2024TMID03729"</h3>
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">chatconnect - a real-time chat and communication app</h3>
 <p align="left">
 </p>
 
