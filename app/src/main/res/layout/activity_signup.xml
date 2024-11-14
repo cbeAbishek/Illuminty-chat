@@ -10,17 +10,18 @@
     <EditText
         android:id="@+id/editTextNumberPassword"
         android:layout_width="268dp"
-        android:layout_height="39dp"
+        android:layout_height="48dp"
         android:autofillHints=""
-        android:hint="enter_you_pin"
-        android:ems="10"
         android:background="@drawable/edt_background"
+        android:ems="10"
+        android:hint="@string/signenter_you_pin"
         android:inputType="numberPassword"
+        android:textColorHint="#DD2C00"
         app:layout_constraintEnd_toEndOf="@+id/editTextText"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextText"
-        tools:layout_editor_absoluteY="480dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteY="480dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -33,17 +34,17 @@
     <EditText
         android:id="@+id/editTextText"
         android:layout_width="266dp"
-        android:layout_height="42dp"
+        android:layout_height="48dp"
         android:autofillHints=""
-        android:hint="@string/name_email"
-        android:ems="10"
-        android:inputType="text"
         android:background="@drawable/edt_background"
+        android:ems="10"
+        android:hint="@string/name_email"
+        android:inputType="text"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
-        tools:layout_editor_absoluteY="409dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteY="409dp" />
 
     <TextView
         android:id="@+id/textView"
@@ -55,14 +56,14 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="295dp"
-        android:layout_height="287dp"
+        android:layout_width="203dp"
+        android:layout_height="237dp"
         android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/logo"
-        tools:layout_editor_absoluteY="50dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="50dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -72,24 +73,25 @@
         android:text="@string/sginup_illuminaties_chats"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/imageView4"
-        tools:layout_editor_absoluteY="325dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="319dp" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="269dp"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:autofillHints=""
-        android:hint="@string/reenter_you_pin"
-        android:ems="10"
         android:background="@drawable/edt_background"
+        android:ems="10"
+        android:hint="@string/reenter_you_pin"
         android:inputType="textPassword"
+        android:textColorHint="#DD2C00"
         app:layout_constraintEnd_toEndOf="@+id/editTextNumberPassword"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/editTextNumberPassword"
-        tools:layout_editor_absoluteY="547dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteY="557dp" />
 
     <TextView
         android:id="@+id/textView6"

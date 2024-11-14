@@ -14,9 +14,9 @@
         android:contentDescription="@string/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="81dp"
-        tools:src="@drawable/logo"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="41dp"
+        tools:src="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView"
@@ -75,7 +75,7 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="@+id/imageView"
-        tools:ignore="LabelFor,MissingConstraints"
+        tools:ignore="LabelFor,MissingConstraints,TextContrastCheck"
         tools:layout_editor_absoluteY="377dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
