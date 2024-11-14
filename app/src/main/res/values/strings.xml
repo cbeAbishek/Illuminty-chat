@@ -13,4 +13,10 @@
     <string name="entry_page_image">Entry page image</string>
     <string name="top_logo">top logo</string>
     <string name="name_email">"  Name/email"</string>
+    <string name="reenter_you_pin">ReEnter you Pin</string>
+    <string name="re_enter_pin">Re-Enter Pin</string>
+    <string name="sginup_illuminaties_chats">Sginup illuminaties Chats</string>
+    <string name="todo">TODO</string>
+    <string name="your_user_name_email">Enter you User name / Email</string>
+    <string name="signup_enter_you_pin">Enter you Pin</string>
 </resources>
