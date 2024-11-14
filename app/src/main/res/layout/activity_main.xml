@@ -45,11 +45,11 @@
         tools:srcCompat="@drawable/home" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Loginbutton"
+        android:background="@drawable/btn_bg"
         android:layout_width="299dp"
         android:layout_height="48dp"
         android:text="@string/login"
-        android:textColorLink="#FE6B5B"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
@@ -57,11 +57,13 @@
         tools:layout_editor_absoluteY="457dp" />
 
     <Button
+        android:id="@+id/Signupbutton"
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:text="@string/sign_up"
-        app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintStart_toStartOf="@+id/button"
+        android:background="@drawable/btn_bg"
+        app:layout_constraintEnd_toEndOf="@+id/Loginbutton"
+        app:layout_constraintStart_toStartOf="@+id/Loginbutton"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="509dp" />
 
